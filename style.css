@@ -1,0 +1,99 @@
+
+/*
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif ;
+}
+
+body{
+   background-color:hsl(47, 88%, 63%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+
+.container-card{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #000;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn-yellow{
+    background: yellow;
+    padding: 8px;
+    border-radius: 10px;
+   width: fit-content;
+   text-align: center;
+}
+
+.card .pu{
+    margin-top: 10px;
+}
+
+.principal-img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.main{
+    margin: 22px 0;
+}
+.main h2{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+blockquote{
+    color: hsl(0, 0%, 50%);
+    font-size: 18px;
+}
+
+.footer{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+
+.footer span{
+   font-weight: bold;
+
+}
